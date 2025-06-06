@@ -1,1 +1,28 @@
-<p>login works!</p>
+<div class="login-container">
+    <img src="game.png" alt="Login" class="game" />
+    <div class="logo">Game Spuds</div>
+    <div class="desc">
+        Game Spuds is the world's most trusted recommendation resource for quality mobile gaming.
+        As the leading online aggregator of app game reviews from critics and players,
+        we provide fans with a comprehensive guide to what's hot – and what's not – in the app stores.
+        If you're a mobile gaming enthusiast looking for your next favorite game or want to share your thoughts,
+        you've come to the right place..
+    </div>
+    <div class="login-form">
+        <div class="form-group">
+            <label for="uname">Username</label>
+            <input type="text" name="uname" class="form-control" [(ngModel)]="username" />
+
+        </div>
+        <div class="form-group">
+            <label for="pword">Password</label>
+            <input type="password" name="pword" class="form-control" [(ngModel)]="password" />
+        </div>
+        <div class="btn-container">
+            <div class="error" >{{ errorMsg }}</div>
+            <button class="btn btn-dark" (click)="login()">Login</button>
+        </div>
+    </div>
+
+
+</div> 
