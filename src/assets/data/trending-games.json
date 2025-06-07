@@ -1,0 +1,78 @@
+[
+  {
+    "id": 1,
+    "name": "Elden Ring",
+    "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
+    "rating": 4.8,
+    "reviews": [
+      {
+        "author": "GamerX",
+        "published_on": "2024-03-21 14:22:10",
+        "review": "Challenging but incredibly rewarding.",
+        "rating": 5.0
+      },
+      {
+        "author": "ShadowKnight",
+        "published_on": "2024-04-10 11:55:03",
+        "review": "Masterpiece of open world design.",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Baldur’s Gate 3",
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1086940/header.jpg",
+    "rating": 4.9,
+    "reviews": [
+      {
+        "author": "RPGFan99",
+        "published_on": "2024-02-15 10:35:45",
+        "review": "One of the best RPGs ever made!",
+        "rating": 5.0
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Hogwarts Legacy",
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/990080/header.jpg",
+    "rating": 4.6,
+    "reviews": [
+      {
+        "author": "WitcherFan",
+        "published_on": "2024-01-22 09:13:39",
+        "review": "Magical experience for Harry Potter fans.",
+        "rating": 4.7
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Resident Evil 4 Remake",
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/2050650/header.jpg",
+    "rating": 4.5,
+    "reviews": [
+      {
+        "author": "ZombieSlayer",
+        "published_on": "2024-03-10 17:00:00",
+        "review": "Great modern take on a classic!",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Cyberpunk 2077: Phantom Liberty",
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/2138330/header.jpg",
+    "rating": 4.4,
+    "reviews": [
+      {
+        "author": "VfromNC",
+        "published_on": "2024-02-05 12:00:00",
+        "review": "Fixed and finally fantastic!",
+        "rating": 4.6
+      }
+    ]
+  }
+]

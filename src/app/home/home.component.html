@@ -1,1 +1,23 @@
-<p>home works!</p>
+<app-header></app-header>
+<div class="home-container">
+    <div class="all-games">
+        <div class="trendind-games">
+            <div class="top">
+                <h4>Trending Games</h4>
+                <div class="view-all">View All </div>
+            </div>
+            <div class="games-thumbnail" *ngIf="trendingGames">
+                <div class="game" *ngFor="let game of trendingGames">
+                    <div class="cover">
+                        <img [src]="game.cover" alt="">
+                    </div>
+                    <div class="detail">
+                        <div class="name">{{ game.name}}</div>
+                        <div class="rating">{{game.rating}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popular-games"></div>
+</div>
